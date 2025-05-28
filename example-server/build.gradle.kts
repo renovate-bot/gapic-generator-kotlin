@@ -24,7 +24,7 @@ import com.google.protobuf.gradle.ofSourceSet
 plugins {
     idea
     application
-    kotlin("jvm") version "1.3.30"
+    kotlin("jvm") version "1.9.25"
     id("com.google.protobuf") version "0.8.8"
 }
 

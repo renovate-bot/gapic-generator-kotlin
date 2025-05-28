@@ -25,7 +25,7 @@ import org.gradle.api.tasks.testing.logging.TestLogEvent
 plugins {
     idea
     java
-    kotlin("jvm") version "1.3.30"
+    kotlin("jvm") version "1.9.25"
     id("com.google.protobuf") version "0.8.8"
 }
 
