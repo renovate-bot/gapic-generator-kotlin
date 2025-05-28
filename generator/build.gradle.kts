@@ -70,7 +70,7 @@ dependencies {
 
     implementation("com.squareup:kotlinpoet:1.2.0")
 
-    implementation("org.yaml:snakeyaml:1.20")
+    implementation("org.yaml:snakeyaml:1.33")
     implementation("org.apache.commons:commons-io:1.3.2")
     implementation("org.apache.commons:commons-text:1.4")
 
