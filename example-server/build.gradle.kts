@@ -51,10 +51,10 @@ defaultTasks = listOf("run")
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
 
-    implementation("io.grpc:grpc-netty-shaded:1.20.0")
-    implementation("io.grpc:grpc-protobuf:1.20.0")
-    implementation("io.grpc:grpc-stub:1.20.0")
-    implementation("io.grpc:grpc-services:1.20.0")
+    implementation("io.grpc:grpc-netty-shaded:1.73.0")
+    implementation("io.grpc:grpc-protobuf:1.73.0")
+    implementation("io.grpc:grpc-stub:1.73.0")
+    implementation("io.grpc:grpc-services:1.73.0")
 
     testImplementation(kotlin("test"))
     testImplementation(kotlin("test-junit"))
@@ -68,7 +68,7 @@ protobuf {
     }
     plugins {
         id("grpc") {
-            artifact = "io.grpc:protoc-gen-grpc-java:1.20.0"
+            artifact = "io.grpc:protoc-gen-grpc-java:1.73.0"
         }
     }
     generateProtoTasks {
