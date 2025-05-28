@@ -81,7 +81,7 @@ dependencies {
     testImpl("junit:junit:4.12")
     testImpl("com.nhaarman:mockito-kotlin:1.6.0")
     // needed to unit test with suspend functions (can remove when the dependency above is updated most likely)
-    testImpl("org.mockito:mockito-core:2.23.4")
+    testImpl("org.mockito:mockito-core:2.28.2")
     testImpl("com.google.truth:truth:0.41")
 
     ktlintImplementation("com.github.shyiko:ktlint:0.31.0")
