@@ -31,7 +31,7 @@ plugins {
     `maven-publish`
     jacoco
     kotlin("jvm") version "1.3.30"
-    id("org.springframework.boot") version "2.1.3.RELEASE"
+    id("org.springframework.boot") version "2.7.18"
     id("com.google.protobuf") version "0.8.8"
 }
 
