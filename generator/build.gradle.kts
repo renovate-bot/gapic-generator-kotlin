@@ -59,7 +59,7 @@ val testSimpleImplementation by configurations.creating {
 
 dependencies {
     implementation(kotlin("stdlib-jdk8"))
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.1.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
 
     compile("com.google.api:kgax-grpc:0.7.0-SNAPSHOT")
 
