@@ -69,7 +69,7 @@ kotlin {
 
 protobuf {
     protoc {
-        artifact = "com.google.protobuf:protoc:3.7.1"
+        artifact = "com.google.protobuf:protoc:4.31.1"
     }
     plugins {
         id("client") {
