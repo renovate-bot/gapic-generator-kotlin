@@ -83,7 +83,7 @@ dependencies {
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.1.0"
 
     // Dependency for Google Sign-In
-    implementation "com.google.android.gms:play-services-auth:16.0.1"
+    implementation "com.google.android.gms:play-services-auth:21.3.0"
 
     testImplementation "org.jetbrains.kotlin:kotlin-test-junit:$kotlin_version"
     testImplementation "com.nhaarman:mockito-kotlin:1.6.0"
